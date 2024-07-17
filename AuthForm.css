@@ -1,0 +1,90 @@
+.auth-form-container {
+    background-color: #333; /* Dark grey color */
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .auth-form {
+    max-width: 500px;
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .auth-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: lighter;
+  }
+  
+  .auth-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-form form > div {
+    margin-bottom: 15px;
+  }
+  
+  .auth-form label {
+    margin-bottom: 5px;
+    font-weight: lighter;
+  }
+  
+  .auth-form input[type="email"],
+  .auth-form input[type="password"] {
+    font-family: serif;
+    font-size: 19px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    /* Remove focus-specific font-family if it exists */
+  }
+  
+  .auth-form input[type="email"]:focus,
+  .auth-form input[type="password"]:focus {
+    font-family: serif; /* Ensure the font stays serif on focus */
+  }
+  
+  .auth-form button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .auth-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .auth-form .toggle-button {
+    margin-top: 10px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: color 0.3s;
+  }
+  
+  .auth-form .toggle-button:hover {
+    color: #fffbfb;
+    background-color: rgb(145, 145, 145);
+  }
+  
